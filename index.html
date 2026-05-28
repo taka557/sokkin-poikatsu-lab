@@ -1,61 +1,115 @@
- line-height:1.7;
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>即金ポイ活ラボ</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:sans-serif;
+    background:#f8fafc;
+    color:#0f172a;
+    line-height:1.7;
 }
 
+/* ヘッダー */
 header{
-    background:#111827;
-    padding:20px;
+    background:#1e3a8a;
+    color:white;
     text-align:center;
-    font-size:28px;
+    padding:18px;
+    font-size:20px;
     font-weight:bold;
 }
 
+/* ヒーロー */
 .hero{
-    padding:50px 20px;
+    background:white;
     text-align:center;
+    padding:35px 15px;
+    border-bottom:1px solid #e2e8f0;
 }
 
 .hero h1{
-    font-size:38px;
-    margin-bottom:10px;
+    font-size:24px;
+    margin:0 0 10px;
 }
 
 .hero p{
-    color:#cbd5e1;
+    font-size:14px;
+    color:#475569;
 }
 
+/* バッジ */
+.badge{
+    display:inline-block;
+    background:#dbeafe;
+    color:#1d4ed8;
+    padding:6px 12px;
+    border-radius:999px;
+    font-size:12px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+/* セクション */
+.section{
+    max-width:800px;
+    margin:auto;
+    padding:15px;
+}
+
+/* カード */
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:14px;
+    border:1px solid #e2e8f0;
+    box-shadow:0 2px 6px rgba(0,0,0,0.04);
+}
+
+.card h2{
+    font-size:18px;
+    margin:0 0 8px;
+}
+
+.card p{
+    font-size:13px;
+    color:#475569;
+}
+
+/* ランク */
+.rank{
+    font-size:12px;
+    font-weight:bold;
+    color:#16a34a;
+    margin-bottom:6px;
+}
+
+/* ★旧ボタンスタイル（見やすさ重視で復活） */
 .button{
     display:inline-block;
-    margin-top:20px;
+    margin-top:12px;
     padding:15px 30px;
     background:#22c55e;
     color:white;
     text-decoration:none;
     border-radius:10px;
     font-weight:bold;
+    text-align:center;
 }
 
-.section{
-    padding:30px 20px;
-    max-width:900px;
-    margin:auto;
-}
-
-.card{
-    background:#1e293b;
-    padding:25px;
-    border-radius:15px;
-    margin-bottom:25px;
-}
-
-.card h2{
-    margin-top:0;
-    color:#22c55e;
-}
-
+/* フッター */
 footer{
     text-align:center;
-    padding:30px;
-    color:#94a3b8;
+    padding:25px;
+    font-size:12px;
+    color:#64748b;
 }
 
 </style>
@@ -68,70 +122,61 @@ footer{
 即金ポイ活ラボ
 </header>
 
-<section class="hero">
+<div class="hero">
 
-<h1>初心者向けポイ活まとめ</h1>
+<div class="badge">初心者OK｜スマホ完結｜完全無料</div>
 
-<p>
-スマホだけで始められる高還元案件を紹介！<br>
-初心者向けの人気ポイ活をまとめています。
-</p>
+<h1>スマホだけでポイ活スタート</h1>
 
-<a class="button">
-案件準備中
-</a>
+<p>初心者でもすぐ始められる人気案件を厳選</p>
 
-</section>
+</div>
 
 <section class="section">
 
+<!-- 1 -->
 <div class="card">
-
-<h2>🔥 TikTok Lite</h2>
-
-<p>
-登録キャンペーンで人気の定番案件。<br>
-初心者でも始めやすく、即日系として話題になることも多いです。
-</p>
-
+<div class="rank">🔥 No.1</div>
+<h2>TikTok Lite</h2>
+<p>即金系で一番人気の案件</p>
 <a class="button" href="https://lite.tiktok.com/t/ZS9YwB1nqwEdY-KVTAI/" target="_blank">
-TikTok Liteを始める
+今すぐ始める
 </a>
-
 </div>
 
+<!-- 2 -->
 <div class="card">
+<div class="rank">💰 No.2</div>
+<h2>モッピー</h2>
+<p>定番のポイントサイト</p>
+<a class="button" href="https://pc.moppy.jp/entry/invite.php?invite=gwAZA11e" target="_blank">
+無料登録
+</a>
+</div>
 
-<h2>🟡 ECナビ（初心者向けポイ活）</h2>
-
-<p>
-アンケートや無料案件でコツコツ貯められる定番ポイ活サイト。<br>
-スマホだけでもOKで、ポイ活初心者に一番おすすめのタイプです。
-</p>
+<!-- 3 -->
+<div class="card">
+<div class="rank">🟡 No.3</div>
+<h2>ECナビ</h2>
+<p>アンケート中心のコツコツ型ポイ活</p>
 
 <a class="button"
-   href="https://px.a8.net/svt/ejp?a8mat=4B4176+7CXWZ6+3NOK+5Z6WX"
-   rel="nofollow"
-   target="_blank">
-ECナビを始める
+href="https://px.a8.net/svt/ejp?a8mat=4B4176+7CXWZ6+3NOK+5Z6WX"
+target="_blank" rel="nofollow">
+始める
 </a>
 
-<!-- A8計測タグ（削除禁止） -->
+<!-- A8計測タグ -->
 <img border="0" width="1" height="1"
-src="https://www17.a8.net/0.gif?a8mat=4B4176+7CXWZ6+3NOK+5Z6WX"
-alt="">
+src="https://www17.a8.net/0.gif?a8mat=4B4176+7CXWZ6+3NOK+5Z6WX">
 
 </div>
 
-<div class="card">
+</section>
 
-<h2>💰 モッピー</h2>
+<footer>
+© 即金ポイ活ラボ
+</footer>
 
-<p>
-定番のポイントサイト。<br>
-クレカ案件や無料登録案件も豊富です。
-</p>
-
-<p>
-紹介コード：gwAZA11e
-</p
+</body>
+</html>
